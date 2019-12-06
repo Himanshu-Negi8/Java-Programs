@@ -1,0 +1,2 @@
+<applet code="A" width=222 height=222>
+</applet>

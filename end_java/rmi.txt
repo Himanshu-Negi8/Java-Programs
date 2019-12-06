@@ -1,0 +1,6 @@
+1.create the remote interface
+2.implementation of remote interface
+3.compile,stub and skeleton
+4.start the rgistry(rmi registry)
+5.create and start server
+6.create and start client

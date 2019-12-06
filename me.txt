@@ -1,0 +1,59 @@
+/*if(month<0)
+{
+month = 12-Math.abs(month);
+
+if(days<0)
+{
+days = Math.abs(days);
+}
+else
+days = days;
+}
+
+else
+{
+if(days<0)
+{
+days = Math.abs(days);
+}
+else
+days = days;
+}
+
+}*/
+
+code rtesfg
+
+if(year>0)
+{
+
+if(month<0)
+{
+month = 12-Math.abs(month);
+System.out.println(month);
+}
+if(days<0)
+{
+days = Math.abs(days);
+}
+
+diff = (year-1)*365+month*30+days;
+System.out.println(diff);
+}
+
+else
+{
+year = Math.abs(year);
+System.out.println(year);
+if(month<0)
+{
+month = 12-Math.abs(month);
+}
+if(days<0)
+{
+days = Math.abs(days);
+}
+diff = (year-1)*365+month*30+days;
+System.out.println(diff);
+}
+

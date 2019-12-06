@@ -1,0 +1,64 @@
+import java.lang.*;
+
+class A
+{
+public static void main(String args[])
+{
+String s1="1-1-2018";
+String s2 = "12-11-2019";
+String []a = s1.split("-");
+String[]b = s2.split("-");
+int diff=0;
+int year = Integer.parseInt(a[2])-Integer.parseInt(b[2]);
+int month = Integer.parseInt(a[1])-Integer.parseInt(b[1]);
+int days = Integer.parseInt(a[0])-Integer.parseInt(b[0]);
+
+
+
+if(year>0)
+{
+
+if(month<0)
+{
+month =Math.abs(month);
+
+}
+if(days<0)
+{
+days = 30+Math.abs(days);
+month-=1;
+}
+
+diff = (year)*365+month*30+days;
+System.out.println(diff);
+}
+
+else
+{
+year = Math.abs(year);
+
+if(month<0)
+{
+month =Math.abs(month);
+
+}
+if(days<0)
+{
+days = 30+Math.abs(days);
+month-=1;
+}
+diff = (year)*365+month*30+days;
+System.out.println(diff);
+}
+
+
+
+
+
+
+
+
+
+}
+
+}
