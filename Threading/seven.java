@@ -1,3 +1,4 @@
+/*Daemon thread program*/
 class A
 {
 public static void main(String args[])

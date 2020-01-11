@@ -1,3 +1,4 @@
+/*thread normal program with sleep() method*/
 class A
 {
 public static void main(String args[])

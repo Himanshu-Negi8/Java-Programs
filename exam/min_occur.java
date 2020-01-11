@@ -4,7 +4,7 @@ class A
  public static void main(String args[])
  {
  
-  String s="abmbaa";
+  String s="cddddcccac";
   int min=1;
   char result ='\0';
   int freq[] = new int[256];

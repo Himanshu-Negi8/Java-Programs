@@ -1,3 +1,5 @@
+/*thread program use of synchronized method*/
+
 class A
 {
 public static void main(String args[])

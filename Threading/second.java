@@ -1,3 +1,4 @@
+/*thread program with join method*/
 class A
 {
 public static void main(String args[]) throws Exception

@@ -18,7 +18,7 @@ class B extends C
 {
 
 public void show1()
-{
+{  
 System.out.println("B is here");
 }
 public void show2()
@@ -27,12 +27,12 @@ System.out.println("B show2");
 }
 
 }
+
 class C extends D
 {
-
 public void show()
 {
-System.out.println("Cis here");
+System.out.println("C is here");
 }
 public void show1()
 {
@@ -43,7 +43,6 @@ System.out.println("C show1");
 
 class D
 {
-
 void show()
 {
 System.out.println("D is here");
